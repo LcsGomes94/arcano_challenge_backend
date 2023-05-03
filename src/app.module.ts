@@ -8,7 +8,7 @@ import { UserModule } from './user/user.module';
   imports: [
     UserModule,
     CacheModule.register(),
-    ThrottlerModule.forRoot({ limit: 20, ttl: 60 }),
+    ThrottlerModule.forRoot({ limit: 100, ttl: 60 }),
   ],
   controllers: [],
   providers: [
