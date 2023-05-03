@@ -4,7 +4,7 @@ Foi utilizado NestJS para criar a API solicitada.
 
 Como por a API para rodar:
 
-Docker: Execute o comando: "docker run --name arcano_challenge -p 3000:3000 lcsgomes/arcano_challenge:v1".
+Docker: Execute o comando: "docker run --name arcano_challenge -p 3030:3030 lcsgomes/arcano_challenge:v1".
 GitHub: Clone o repositório para sua máquina e execute o comando: "npm install", depois rode o comando "npm run build", e após isso execute "npm run start:prod".
 
 Como utilizar a API:
@@ -12,6 +12,7 @@ Como utilizar a API:
 Acesse "http://localhost:3000/user/cart-history/ID", e substitua o ID pelo id de um usuário existente.
 
 Detalhes extras:
+
 - Rate limiting pra proteger o servidor de sobrecarga.
 - Cache de 5 segundos para melhor experiência do usuário.
 - Pipeline para evitar IDs que não sejam números.
