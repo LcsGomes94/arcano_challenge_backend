@@ -9,7 +9,7 @@ GitHub: Clone o repositório para sua máquina e execute o comando: "npm install
 
 Como utilizar a API:
 
-Acesse "http://localhost:3000/user/cart-history/ID", e substitua o ID pelo id de um usuário existente.
+Acesse "http://localhost:3030/user/cart-history/ID", e substitua o ID pelo id de um usuário existente.
 
 Detalhes extras:
 
